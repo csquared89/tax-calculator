@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Template</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+
+</head>
+
+<body>
+
+  <h1>What will your total be?</h1>
+  <h3>A calculator for adding tax to any product is below.</h3>
+
+    <form id="tax-form">
+      Subtotal: <input type="number" step="0.01" value="" id="subtotal" placeholder="39.99"><br/>
+      Tax rate: <input type="number" step="0.01" value="" id="taxrates" placeholder="7"><br/>
+      <input type="button" value="Submit" id="calc">
+      <input type="button" value="Clear" id="clear">
+    </form>
+
+    <p class="taxPlus"></p>
+
+    <form id="incomeTaxForm">
+      Income: <input type="number" step="1" value="" id="income" placeholder="50000"><br/>
+      <input type="button" value="Submit" id="calcFedTax">
+      <input type="button" value="Clear" id="clearIncome">
+    </form>
+
+    <div class="incomeTax">
+
+    </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/objects.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
