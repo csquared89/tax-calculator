@@ -90,6 +90,7 @@ $('#clearIncome').click(function(){
 
 $(function() {
   $("#presidents").accordion({
+    animate: 50,
     collapsible: true
   });
 });
