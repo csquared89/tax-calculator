@@ -12,8 +12,8 @@ $('#calc').click(function(){
 
 // Button that clears the subtotal, tax, and total
 $('#clear').click(function(){
-  $('#taxrates').empty();
-  $('#subtotal').empty();
+  $('#taxrates').val('');
+  $('#subtotal').val('');
   $('.taxPlus').hide();
 });
 

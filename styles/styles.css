@@ -7,6 +7,10 @@ h2 {
   text-align: center;
 }
 
+#taxrates {
+    margin: 1%;
+}
+
 .prez {
   color: black !important;
   height: auto !Important;
@@ -29,7 +33,7 @@ h2 {
 
 #incomeTaxForm {
     text-align: center;
-    padding: 2%;
+    padding: 1%;
 }
 
 #tax-form {
@@ -41,24 +45,28 @@ h2 {
     background-color: black;
     color: white;
     border-radius: 15%;
+    margin: 1%;
 }
 
 #clear {
   background-color: black;
   color: white;
   border-radius: 15%;
+  margin: 1%;
 }
 
 #calcFedTax {
   background-color: black;
   color: white;
   border-radius: 15%;
+  margin: 1%;
 }
 
 #clearIncome {
   background-color: black;
   color: white;
   border-radius: 15%;
+  margin: 1%;
 }
 
 input {
