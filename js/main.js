@@ -93,3 +93,5 @@ $(function() {
     collapsible: true
   });
 });
+
+$("h3").css('cursor', 'pointer');
