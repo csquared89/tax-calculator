@@ -9,13 +9,14 @@
   <meta name="author" content="SitePoint">
 
   <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
 </head>
 
 <body>
 
   <h1>What will your total be?</h1>
-  <h3>A calculator for adding tax to any product is below.</h3>
+  <h2>A calculator for adding tax to any product is below.</h2>
 
     <form id="tax-form">
       Subtotal: <input type="number" step="0.01" value="" id="subtotal" placeholder="39.99"><br/>
@@ -32,11 +33,23 @@
       <input type="button" value="Clear" id="clearIncome">
     </form>
 
-    <div class="incomeTax">
+    <div class="incomeTax"></div>
 
+    <div id="presidents">
+      <h3><span class="triangle"></span>George H.W. Bush</h3>
+        <p class="prez">George Herbert Walker Bush (born June 12, 1924) is an American politician who served as the 41st President of the United States from 1989 to 1993. Prior to assuming the presidency, Bush served as the 43rd Vice President of the United States from 1981 to 1989. A member of the Republican Party, he had previously been a Congressman, Ambassador and Director of Central Intelligence. During his career in the public sector, he was known simply as George Bush; since 2001, he has often been referred to as "George H. W. Bush", "Bush 41", or "George Bush Senior" in order to distinguish him from his eldest son, George W. Bush, the 43rd president of the United States. He is the nation's oldest living President and Vice President, as well as the longest-lived President in its history.</p>
+      <h3><span class="triangle"></span>Bill Clinton</h3>
+        <p class="prez">William Jefferson Clinton (né Blythe III; born August 19, 1946) is an American politician who served as the 42nd President of the United States from 1993 to 2001. Prior to the presidency, he was the Governor of Arkansas from 1979 to 1981, and again from 1983 to 1992. A member of the Democratic Party, Clinton was ideologically a New Democrat and many of his policies reflected a centrist "Third Way" political philosophy.</p>
+      <h3><span class="triangle"></span>George W. Bush</h3>
+        <p class="prez">George Walker Bush (born July 6, 1946) is an American politician who served as the 43rd President of the United States from 2001 to 2009. He was also the 46th Governor of Texas from 1995 to 2000.</p>
+      <h3><span class="triangle"></span>Barack Obama</h3>
+        <p class="prez">Barack Hussein Obama II (/bəˈrɑːk huːˈseɪn oʊˈbɑːmə/ born August 4, 1961) is an American politician who served as the 44th President of the United States from January 20, 2009 to January 20, 2017. The first African American to assume the presidency, he was previously the junior United States Senator from Illinois from 2005 to 2008. Before that, he served in the Illinois State Senate from 1997 until 2004.</p>
+      <h3><span class="triangle"></span>Donald Trump</h3>
+        <p class="prez">Donald John Trump (born June 14, 1946) is the 45th and current President of the United States, in office since January 20, 2017. Before entering politics, he was a businessman and television personality.</p>
     </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
   <script src="js/objects.js"></script>
   <script src="js/main.js"></script>
 </body>

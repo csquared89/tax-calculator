@@ -3,21 +3,33 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h3 {
+h2 {
   text-align: center;
 }
 
-p {
+.prez {
+  color: black !important;
+  height: auto !Important;
+}
+
+#presidents {
+    width: 50%;
+    margin: auto;
+}
+
+.taxPlus {
     text-align: center;
     font-size: 18px;
     font-weight: bold;
     font-family: Gill Sans Extrabold, sans-serif;
     color: #008000;
+    height: auto;
+    margin: 1%;
 }
 
 #incomeTaxForm {
     text-align: center;
-    padding: 5% 2% 1% 2%;
+    padding: 2%;
 }
 
 #tax-form {
@@ -78,4 +90,25 @@ input[type=number]::-webkit-outer-spin-button {
     color: red;
     font-weight: bold;
     font-family: Gill Sans Extrabold, sans-serif;
+}
+
+h3 {
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: lightgrey;
+}
+
+.triangle {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -.1em;
+    position: relative;
+    text-indent: -99999px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-image: url("../images/triangle.png");
+    padding: 0 2px 0 0;
 }

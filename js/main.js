@@ -87,3 +87,9 @@ $('#clearIncome').click(function(){
   $('.incomeTax').empty();
   $('.incomeTax').hide();
 });
+
+$(function() {
+  $("#presidents").accordion({
+    collapsible: true
+  });
+});
