@@ -95,7 +95,7 @@ $(function() {
   });
 });
 
-$("h3").css('cursor', 'pointer');
+$("#presidents h2").css('cursor', 'pointer');
 
 $(document).ready(() => {
 
