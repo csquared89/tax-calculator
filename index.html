@@ -16,7 +16,7 @@
 <body>
 
   <h1>What will your total be?</h1>
-  <h2>A calculator for adding tax to any product is below.</h2>
+  <div class="head">A calculator for adding tax to any product is below.</div>
 
     <form id="tax-form">
       Subtotal: <input type="number" step="0.01" value="" id="subtotal" placeholder="39.99"><br/>
@@ -28,7 +28,7 @@
     <p class="taxPlus"></p>
 
   <h1>What will you owe in taxes?</h1>
-  <h2>Calculating income taxes before deductions.</h2>
+  <div class="head">Calculating income taxes before deductions.</div>
 
 
     <form id="incomeTaxForm">
@@ -40,17 +40,124 @@
     <div class="incomeTax"></div>
 
     <div id="presidents">
-      <h3><span class="triangle"></span>George H.W. Bush</h3>
+      <h2><span class="triangle"></span>George H.W. Bush</h2>
         <p class="prez">George Herbert Walker Bush (born June 12, 1924) is an American politician who served as the 41st President of the United States from 1989 to 1993. Prior to assuming the presidency, Bush served as the 43rd Vice President of the United States from 1981 to 1989. A member of the Republican Party, he had previously been a Congressman, Ambassador and Director of Central Intelligence. During his career in the public sector, he was known simply as George Bush; since 2001, he has often been referred to as "George H. W. Bush", "Bush 41", or "George Bush Senior" in order to distinguish him from his eldest son, George W. Bush, the 43rd president of the United States. He is the nation's oldest living President and Vice President, as well as the longest-lived President in its history.</p>
-      <h3><span class="triangle"></span>Bill Clinton</h3>
+      <h2><span class="triangle"></span>Bill Clinton</h2>
         <p class="prez">William Jefferson Clinton (né Blythe III; born August 19, 1946) is an American politician who served as the 42nd President of the United States from 1993 to 2001. Prior to the presidency, he was the Governor of Arkansas from 1979 to 1981, and again from 1983 to 1992. A member of the Democratic Party, Clinton was ideologically a New Democrat and many of his policies reflected a centrist "Third Way" political philosophy.</p>
-      <h3><span class="triangle"></span>George W. Bush</h3>
+      <h2><span class="triangle"></span>George W. Bush</h2>
         <p class="prez">George Walker Bush (born July 6, 1946) is an American politician who served as the 43rd President of the United States from 2001 to 2009. He was also the 46th Governor of Texas from 1995 to 2000.</p>
-      <h3><span class="triangle"></span>Barack Obama</h3>
+      <h2><span class="triangle"></span>Barack Obama</h2>
         <p class="prez">Barack Hussein Obama II (/bəˈrɑːk huːˈseɪn oʊˈbɑːmə/ born August 4, 1961) is an American politician who served as the 44th President of the United States from January 20, 2009 to January 20, 2017. The first African American to assume the presidency, he was previously the junior United States Senator from Illinois from 2005 to 2008. Before that, he served in the Illinois State Senate from 1997 until 2004.</p>
-      <h3><span class="triangle"></span>Donald Trump</h3>
+      <h2><span class="triangle"></span>Donald Trump</h2>
         <p class="prez">Donald John Trump (born June 14, 1946) is the 45th and current President of the United States, in office since January 20, 2017. Before entering politics, he was a businessman and television personality.</p>
     </div>
+
+    <!-- Product Cards -->
+     <div class='spring-game'>
+       <div class='card'>
+         <div class='bg-image austin'></div>
+         <div class='name-learn'>
+           <h4>Austin</h4>
+           <div>
+             <p>What I Learned</p>
+             <div class='more-details-button'>
+               <img src='https://s3.amazonaws.com/codecademy-content/courses/jquery/audit/images/right-arrow.svg' />
+             </div>
+           </div>
+         </div>
+
+         <div class='notes'>
+           <p> The one thing I learned this spring is there is a different standard. It's one thing to say you are going to change the culture and hold people accountable, but it’s another to do it. The Jauan Jennings situation was a perfect way to establish Jeremy Pruitt's way of doing things. The way they train and practice is different. How they are coached and praised is different.
+              <br>
+              <br>
+               Some have clearly taken to Pruitt, while others are still adapting. Pruitt's comments after the spring game tell you all you need to know about the man leading this program. He's not going to pull punches and give anyone a free pass. He demands the best of each person right down to the water boy. One thing is clear and that is you either fall in place or fall down the depth chart.</p>
+         </div>
+       </div>
+     </div>
+
+   <div class='spring-game'>
+     <div class='card'>
+       <div class='bg-image brent'></div>
+       <div class='name-learn'>
+         <h4>Brent</h4>
+         <div>
+           <p>What I Learned</p>
+           <div class='more-details-button'>
+             <img src='https://s3.amazonaws.com/codecademy-content/courses/jquery/audit/images/right-arrow.svg' />
+           </div>
+         </div>
+       </div>
+
+       <div class='notes'>
+         <p> There's certainly been plenty of talk about guys quitting, body language, etc., coming out of this spring, but for me, what I learned is that this is and will be a better coached football team.
+            <br>
+            <br>
+             There's no question this program needs stability after having 34 coaches on staff since 2015. That instability has hurt development for sure. And while, the new staff has no longevity to this point, they were impressive in 15 practices. For me, there's no better example of that than the wide receivers.
+            <br>
+            <br>
+             The receivers showed significant improvement this spring and started showing some consistency. Receiver coach David Johnson was as impressive as anyone on the staff this spring.</p>
+      </div>
+   </div>
+ </div>
+
+ <div class='spring-game'>
+    <div class='card'>
+      <div class='bg-image jesse'></div>
+      <div class='name-learn'>
+        <h4>Jesse</h4>
+        <div>
+          <p>What I Learned</p>
+          <div class='more-details-button'>
+            <img src='https://s3.amazonaws.com/codecademy-content/courses/jquery/audit/images/right-arrow.svg' />
+          </div>
+        </div>
+      </div>
+
+      <div class='notes'>
+        <p> Culture shock is real and Tennessee’s learning curve is steep.
+            <br>
+            <br>
+            Whenever there’s a change, new coaches come in and outline their set of standards and expectations. It happens everywhere.
+            <br>
+            <br>
+            But the transition from Butch Jones to Jeremy Pruitt was particularly challenging for many in the program this spring. As Tracy Rocker told his DL unit during practice last week, “I told y'all it ain't going to be Happy Days around here anymore."
+            <br>
+            <br>
+            There’s no doubt that Pruitt is confident in his plan to turnaround Tennessee, touting his “much success.”
+            <br>
+            <br>
+            But clearly, change isn't going to come easy. Many on this team did not meet Pruitt's lofty demands after 15 practices. Some certainly did, but calling guys out for quitting and publicly saying that others would be watching from the sidelines in the fall was a major message about where this team stands heading into the offseason. </p>
+      </div>
+    </div>
+  </div>
+
+<div class='spring-game'>
+  <div class='card'>
+    <div class='bg-image rob'></div>
+    <div class='name-learn'>
+      <h4>Rob</h4>
+      <div>
+        <p>What I Learned</p>
+        <div class='more-details-button'>
+          <img src='https://s3.amazonaws.com/codecademy-content/courses/jquery/audit/images/right-arrow.svg' />
+        </div>
+      </div>
+    </div>
+
+    <div class='notes'>
+      <p>
+        The one thing I learned this spring is that Tennessee has a head football coach who is all business. He’s not afraid to be confrontational and he’s been very clear about his efforts to change the culture.
+          <br><br>
+        None of that is a surprise, not with Jeremy Pruitt’s reputation, but the past month has been confirmation that the Tennessee program is under the direction of a man who isn’t afraid to draw a line in the sand with his team and let players know exactly where they stand.
+          <br><br>
+        Players who can’t take hard coaching or can’t stand criticism won’t survive under Pruitt. This program needs that.
+          <br><br>
+        No one knows what kind of a game day coach he’ll be, but one thing is for certain, this guy has a vision for what he wants his program to be and he’s focused on executing that vision.
+      </p>
+    </div>
+  </div>
+</div>
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>

@@ -96,3 +96,18 @@ $(function() {
 });
 
 $("h3").css('cursor', 'pointer');
+
+$(document).ready(() => {
+
+  $('.notes').hide();
+
+  $('.more-details-button').on('click', event => {
+   $(event.currentTarget).closest('.name-learn').next().toggle()
+  });
+
+  $('.notes li').on('click', event => {
+    $(event.currentTarget).addClass('active');
+    $(event.currentTarget).siblings().removeClass('active');
+    $(event.currentTarget).closest('.notes').children().removeClass('disabled')
+  });
+});
